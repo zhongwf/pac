@@ -3,6 +3,7 @@ function FindProxyForURL(url, host) {
 		return "DIRECT";
 	}else{
 		//return "PROXY 172.16.11.129:1081";
-		return "PROXY 192.168.31.17:1081";
+		//return "PROXY 192.168.31.17:1081";
+		return "SOCKS 192.168.31.152:1080"
 	}
 }
